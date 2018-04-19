@@ -19,6 +19,9 @@ app.get('/app.js',function(req,res)
 	res.sendFile(__dirname+'/app.js');
 });
 
+
+app.use(express.static(__dirname+'/public'))
+
 http.listen(PORT,function(){console.log("INIT OK!")})
 
 
