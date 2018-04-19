@@ -4,14 +4,14 @@
     <meta charset="utf-8">
     <title>AngularJS Animate Slider</title>
 
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/html" href="style.css"/>
+    <link rel="stylesheet" type="text/html" href="bootstrap.css"/>
 </head>
 
 <body ng-controller="MainCtrl">
 
 <div class="container slider">
-    <img ng-repeat="slide in slides" class="slide slide-animation"
+    <img ng-repeat="slide in slides" class="slide slide-animation nonDraggableImage"
          ng-swipe-right="nextSlide()" ng-swipe-left="prevSlide()"
          ng-hide="!isCurrentSlideIndex($index)" ng-src="{{slide.image}}">
 
@@ -29,19 +29,25 @@
 </div>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of b348e6d... ya jalo!!!
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular-animate.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular-touch.min.js"></script>
+<<<<<<< HEAD
 =======
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.2/angular.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.2/angular-animate.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.2/angular-touch.min.js"></script>
 >>>>>>> b348e6d721ccc31e769dd27d369afab5f6cb4a6f
+=======
+>>>>>>> parent of b348e6d... ya jalo!!!
 <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.10.3/TweenMax.min.js"></script>
 
-<script src="js/app.js"></script>
-
+<script src="app.js"></script>
+<!-- <script type="text/javascript" src="jquery.min.js"></script> -->
 </body>
 </html>
