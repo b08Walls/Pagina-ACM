@@ -1,0 +1,42 @@
+{
+  "name": "pagina-acm",
+  "version": "1.0.0",
+  "description": "pagina del aurelio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b08Walls/Pagina-ACM.git"
+  },
+  "dependencies": {
+    "angular": "^1.6.9",
+    "angular-animate": "^1.6.9",
+    "angular-aria": "^1.6.9",
+    "angular-material": "^1.1.8",
+    "angular-messages": "^1.6.9",
+    "d3": "^5.0.0",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "image-size": "^0.6.2",
+    "jquery": "^3.3.1",
+    "mongodb": "^3.0.5",
+    "mongojs": "^2.5.0",
+    "mqtt": "^2.15.3",
+    "npm": "^5.8.0",
+    "socket.io": "^2.0.4"
+  },
+  "keywords": [
+    "SEP",
+    "AURELIO",
+    "NINJA",
+    "BROCOLI"
+  ],
+  "author": "Aurelio Canto Macias ft. Octavio R Paredes G",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/b08Walls/Pagina-ACM/issues"
+  },
+  "homepage": "https://github.com/b08Walls/Pagina-ACM#readme"
+}
